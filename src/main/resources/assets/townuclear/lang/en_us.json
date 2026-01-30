@@ -1,0 +1,13 @@
+{
+  "itemGroup.townuclear": "Example Mod Tab",
+  "block.townuclear.example_block": "Example Block",
+  "item.townuclear.example_item": "Example Item",
+
+  "townuclear.configuration.title": "ToW: Nuclear Dawn Configs",
+  "townuclear.configuration.section.townuclear.common.toml": "ToW: Nuclear Dawn Configs",
+  "townuclear.configuration.section.townuclear.common.toml.title": "ToW: Nuclear Dawn Configs",
+  "townuclear.configuration.items": "Item List",
+  "townuclear.configuration.logDirtBlock": "Log Dirt Block",
+  "townuclear.configuration.magicNumberIntroduction": "Magic Number Text",
+  "townuclear.configuration.magicNumber": "Magic Number"
+}
