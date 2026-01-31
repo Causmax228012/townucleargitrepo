@@ -4,7 +4,7 @@ Welcome to the industrial heart of the **Terror of War (ToW)** ecosystem. This m
 
 ##  How to Play
 
-1. Download the latest `.jar` file (e.g., `Tow_nuclear_dawn-v1.0.0.jar`).
+1. Download the latest `.jar` file (e.g., `Tow_nuclear_dawn-vx.x.x.jar`).
 2. Drop that file into your Minecraft `mods` folder.
 3. Profit.
 
