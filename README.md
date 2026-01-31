@@ -1,25 +1,20 @@
+#  ToW: Nuclear Dawn (S3D Division)
 
-Installation information
-=======
+Welcome to the industrial heart of the **Terror of War (ToW)** ecosystem. This mod, developed under the **Scharton 3D (S3D)** brand, focuses on the vertical integration of power, chemistry, and high-tier computing.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+##  How to Play
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+1. Download the latest `.jar` file (e.g., `Tow_nuclear_dawn-v1.0.0.jar`).
+2. Drop that file into your Minecraft `mods` folder.
+3. Profit.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+##  Current Industrial Progress
+* **Uranium Path:** From Raw Ore to UO2 Pellets.
+* **Silica Path:** From Sand to High-Performance S3D CPUs.
+* **Sulfur Path:** Chemical catalysts and explosives.
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+##  The S3D Assistant says:
+> "If you are reading the raw code instead of downloading the JAR, you are doing it wrong. Please utilize the Release tab before I have to recalibrate your safety settings."
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+## 🛠️ Development
+This is a personal project. If you want to contribute or report a bug, join the Discord or DM the CEO (Causmax22).
