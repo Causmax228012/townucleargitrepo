@@ -16,5 +16,5 @@ Welcome to the industrial heart of the **Terror of War (ToW)** ecosystem. This m
 ##  The S3D Assistant says:
 > "If you are reading the raw code instead of downloading the JAR, you are doing it wrong. Please utilize the Release tab before I have to recalibrate your safety settings."
 
-## 🛠️ Development
+##  Development
 This is a personal project. If you want to contribute or report a bug, join the Discord or DM the CEO (Causmax22).
