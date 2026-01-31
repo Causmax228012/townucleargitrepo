@@ -1,4 +1,19 @@
 {
   "item.townuclear.raw_uranium_ore": "Raw Uranium Ore",
-  "item.townuclear.crushed_uranium_ore": "Crushed Uranium Ore"
+  "item.townuclear.crushed_uranium_ore": "Crushed Uranium Ore",
+  "item.townuclear.yellow_cake": "Yellow Cake",
+  "item.townuclear.uranium_dioxide": "Uranium Dioxide",
+  "item.townuclear.uranium_pellet": "Uranium Pellet",
+  "item.townuclear.sulfur": "Sulfur",
+  "item.townuclear.silica_powder": "Silica Powder",
+  "item.townuclear.silica_sheet": "Silica Sheet",
+  "item.townuclear.polished_silica_sheet": "Polished Silica Sheet",
+  "item.townuclear.perfectly_polished_silica_sheet": "Perfectly Polished Silica Sheet",
+  "item.townuclear.silica_wafer": "Silica Wafer",
+  "item.townuclear.perfect_silica_wafer": "Perfect Silica Wafer",
+  "item.townuclear.hq_cpu": "High Quality CPU",
+  "item.townuclear.lq_cpu": "Low Quality CPU",
+
+
+  "block.townuclear.uranium_ore": "Uranium Ore"
 }
