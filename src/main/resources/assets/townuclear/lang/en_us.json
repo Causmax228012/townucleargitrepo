@@ -4,16 +4,24 @@
   "item.townuclear.yellow_cake": "Yellow Cake",
   "item.townuclear.uranium_dioxide": "Uranium Dioxide",
   "item.townuclear.uranium_pellet": "Uranium Pellet",
+
   "item.townuclear.sulfur": "Sulfur",
+
   "item.townuclear.silica_powder": "Silica Powder",
+  "item.townuclear.pure_silica_powder": "Pure Silica Powder",
   "item.townuclear.silica_sheet": "Silica Sheet",
+  "item.townuclear.pure_silica_sheet": "Pure Silica Sheet",
   "item.townuclear.polished_silica_sheet": "Polished Silica Sheet",
-  "item.townuclear.perfectly_polished_silica_sheet": "Perfectly Polished Silica Sheet",
+  "item.townuclear.pure_polished_silica_sheet": "Pure Polished Silica Sheet",
   "item.townuclear.silica_wafer": "Silica Wafer",
   "item.townuclear.perfect_silica_wafer": "Perfect Silica Wafer",
+  "item.townuclear.incomplete_cpu": "Incomplete CPU",
+  "item.townuclear.;lq_incomplete_cpu": "Low Quality Incomplete CPU",
   "item.townuclear.hq_cpu": "High Quality CPU",
   "item.townuclear.lq_cpu": "Low Quality CPU",
 
+  "item.townuclear.galvanized_andesite_alloy": "Galvanized Andesite Alloy",
+  "item.townuclear.galvanized_andesite_sheet": "Galvanized Andesite Sheet",
 
   "block.townuclear.uranium_ore": "Uranium Ore",
 

@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+
+  "ingredients": [
+    {
+      "item": "townuclear:uranium_dioxide"
+    }
+  ],
+  "results": [
+    {
+      "id": "townuclear:uranium_pellet"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+
+  "ingredients": [
+    {
+      "item": "townuclear:galvanized_andesite_alloy"
+    }
+  ],
+  "results": [
+    {
+      "id": "townuclear:galvanized_andesite_sheet"
+    }
+  ]
+}

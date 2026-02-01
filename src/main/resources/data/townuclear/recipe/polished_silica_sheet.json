@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "townuclear:silica_sheet"
+    }
+  ],
+  "results": [
+    {
+      "id": "townuclear:polished_silica_sheet"
+    }
+  ]
+}

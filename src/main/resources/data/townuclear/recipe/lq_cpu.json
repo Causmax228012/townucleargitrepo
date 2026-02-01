@@ -1,0 +1,84 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "townuclear:silica_wafer"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "id": "townuclear:lq_cpu",
+      "chance": 70
+    },
+    {
+      "id": "townuclear:silica_powder",
+      "chance": 30,
+      "count": 2
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "chance": 10,
+      "count": 2
+    },
+    {
+      "id": "create:andesite_casing",
+      "chance": 5,
+      "count": 2
+    },
+    {
+      "id": "townuclear:hq_cpu",
+      "chance": 2
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "townuclear:incomplete_cpu"
+        },
+        {
+          "item": "create:andesite_casing"
+        }
+      ],
+      "keep_held_item": false,
+      "results": [
+        {
+          "id": "townuclear:incomplete_cpu"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "townuclear:incomplete_cpu"
+        },
+        {
+          "item": "minecraft:gold_nugget"
+        }
+      ],
+      "keep_held_item": false,
+      "results": [
+        {
+          "id": "townuclear:incomplete_cpu"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "townuclear:incomplete_cpu"
+        }
+      ],
+      "results": [
+        {
+          "id": "townuclear:incomplete_cpu"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "townuclear:incomplete_cpu"
+  }
+}

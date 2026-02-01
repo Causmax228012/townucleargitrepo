@@ -34,20 +34,30 @@ public class ModItems {
     //SILICA/PROCESOR ITEMS
     public static final DeferredItem<Item> SILICA_POWDER = ITEMS.register("silica_powder",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PURE_SILICA_POWDER = ITEMS.register("pure_silica_powder",
+            () -> new Item(new Item.Properties()));
 
+        //SILICA SHEETS
     public static final DeferredItem<Item> SILICA_SHEET = ITEMS.register("silica_sheet",
             () -> new Item(new Item.Properties()));
-
+    public static final DeferredItem<Item> PURE_SILICA_SHEET = ITEMS.register("pure_silica_sheet",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> POLISHED_SILICA_SHEET = ITEMS.register("polished_silica_sheet",
             () -> new Item(new Item.Properties()));
-
-    public static final DeferredItem<Item> PERFECTLY_POLISHED_SILICA_SHEET = ITEMS.register("perfectly_polished_silica_sheet",
+    public static final DeferredItem<Item> PURE_POLISHED_SILICA_SHEET = ITEMS.register("pure_polished_silica_sheet",
             () -> new Item(new Item.Properties()));
+
+
 
     public static final DeferredItem<Item> SILICA_WAFER = ITEMS.register("silica_wafer",
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> PERFECT_SILICA_WAFER = ITEMS.register("perfect_silica_wafer",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> INCOMPLETE_CPU = ITEMS.register("incomplete_cpu",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> LQ_INCOMPLETE_CPU = ITEMS.register("lq_incomplete_cpu",
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> LOW_QUALITY_CPU = ITEMS.register("lq_cpu",
@@ -56,6 +66,11 @@ public class ModItems {
     public static final DeferredItem<Item> HIGH_QUALITY_CPU = ITEMS.register("hq_cpu",
             () -> new Item(new Item.Properties()));
 
+    //Steel manufacturing
+    public static final DeferredItem<Item> GALVANIZED_ANDESITE_ALLOY = ITEMS.register("galvanized_andesite_alloy",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GALVANIZED_ANDESITE_SHEET = ITEMS.register("galvanized_andesite_sheet",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+
+  "ingredients": [
+    {
+      "item": "townuclear:silica_powder"
+    }
+  ],
+  "results": [
+    {
+      "id": "townuclear:silica_sheet"
+    }
+  ]
+}

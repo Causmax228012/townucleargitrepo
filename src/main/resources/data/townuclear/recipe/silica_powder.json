@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "chance": 0.15,
+      "id": "townuclear:silica_powder"
+    },
+    {
+      "chance": 0.30,
+      "id": "minecraft:flint"
+    }
+  ]
+}

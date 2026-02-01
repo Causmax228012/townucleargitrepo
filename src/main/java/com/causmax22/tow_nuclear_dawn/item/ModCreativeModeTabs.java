@@ -30,14 +30,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SULFUR);
                         //Silica/cpu processing
                         output.accept(ModItems.SILICA_POWDER);
+                        output.accept(ModItems.PURE_SILICA_POWDER);
                         output.accept(ModItems.SILICA_SHEET);
+                        output.accept(ModItems.PURE_SILICA_SHEET);
                         output.accept(ModItems.POLISHED_SILICA_SHEET);
-                        output.accept(ModItems.PERFECTLY_POLISHED_SILICA_SHEET);
+                        output.accept(ModItems.PURE_POLISHED_SILICA_SHEET);
                         output.accept(ModItems.SILICA_WAFER);
                         output.accept(ModItems.PERFECT_SILICA_WAFER);
                         output.accept(ModItems.HIGH_QUALITY_CPU);
                         output.accept(ModItems.LOW_QUALITY_CPU);
-
+                        //Steel Manufacturing
+                        output.accept(ModItems.GALVANIZED_ANDESITE_ALLOY);
+                        output.accept(ModItems.GALVANIZED_ANDESITE_SHEET);
 
 
                     }).build());

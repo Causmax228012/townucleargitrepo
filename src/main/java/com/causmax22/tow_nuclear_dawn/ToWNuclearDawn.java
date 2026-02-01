@@ -69,23 +69,7 @@ public class ToWNuclearDawn {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            //Uranium
-            event.accept(ModItems.RAW_URANIUM_ORE);
-            event.accept(ModItems.CRUSHED_URANIUM_ORE);
-            event.accept(ModItems.YELLOW_CAKE);
-            event.accept(ModItems.URANIUM_DIOXIDE);
-            event.accept(ModItems.URANIUM_PELLET);
-            //Sulfur
-            event.accept(ModItems.SULFUR);
-            //Silica/cpu processing
-            event.accept(ModItems.SILICA_POWDER);
-            event.accept(ModItems.SILICA_SHEET);
-            event.accept(ModItems.POLISHED_SILICA_SHEET);
-            event.accept(ModItems.PERFECTLY_POLISHED_SILICA_SHEET);
-            event.accept(ModItems.SILICA_WAFER);
-            event.accept(ModItems.PERFECT_SILICA_WAFER);
-            event.accept(ModItems.HIGH_QUALITY_CPU);
-            event.accept(ModItems.LOW_QUALITY_CPU);
+
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
 
