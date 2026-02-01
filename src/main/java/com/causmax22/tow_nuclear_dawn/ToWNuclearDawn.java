@@ -1,6 +1,7 @@
 package com.causmax22.tow_nuclear_dawn;
 
 import com.causmax22.tow_nuclear_dawn.block.ModBlocks;
+import com.causmax22.tow_nuclear_dawn.item.ModCreativeModeTabs;
 import com.causmax22.tow_nuclear_dawn.item.ModItems;
 import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -49,6 +50,8 @@ public class ToWNuclearDawn {
 
         //RIGHT HERE:
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -85,7 +88,7 @@ public class ToWNuclearDawn {
             event.accept(ModItems.LOW_QUALITY_CPU);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
-            event.accept(ModBlocks.URANIUM_ORE);
+
         }
     }
 

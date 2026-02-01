@@ -15,5 +15,7 @@
   "item.townuclear.lq_cpu": "Low Quality CPU",
 
 
-  "block.townuclear.uranium_ore": "Uranium Ore"
+  "block.townuclear.uranium_ore": "Uranium Ore",
+
+  "creativetab.tow_nuclear_dawn.tow_nuclear_dawn": "ToW: Nuclear Dawn"
 }
