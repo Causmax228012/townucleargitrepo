@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "chance": 0.50,
+      "id": "townuclear:pure_silica_powder"
+    },
+    {
+      "chance": 0.50,
+      "id": "townuclear:pure_silica_powder"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "crackle": {
+    "subtitle": "sounds.townuclear.crackle",
+    "sounds": [
+      {
+        "name": "townuclear:item/crackle"
+      }
+    ]
+  }
+}

@@ -22,6 +22,9 @@
 
   "item.townuclear.galvanized_andesite_alloy": "Galvanized Andesite Alloy",
   "item.townuclear.galvanized_andesite_sheet": "Galvanized Andesite Sheet",
+  "item.townuclear.placeholder": "Place Holder",
+
+  "item.townuclear.geiger_counter": "Geiger Counter",
 
   "block.townuclear.uranium_ore": "Uranium Ore",
 

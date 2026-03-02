@@ -1,7 +1,7 @@
-package com.causmax22.tow_nuclear_dawn.item;
+package com.causmax22.tow_nuclear_dawn.registry;
 
 import com.causmax22.tow_nuclear_dawn.ToWNuclearDawn;
-import com.causmax22.tow_nuclear_dawn.block.ModBlocks;
+import com.causmax22.tow_nuclear_dawn.registry.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -42,6 +42,12 @@ public class ModCreativeModeTabs {
                         //Steel Manufacturing
                         output.accept(ModItems.GALVANIZED_ANDESITE_ALLOY);
                         output.accept(ModItems.GALVANIZED_ANDESITE_SHEET);
+                        //placeholder
+                        output.accept(ModItems.PLACEHOLDER);
+                        //custom
+                        output.accept(ModItems.GEIGER_COUNTER);
+
+
 
 
                     }).build());

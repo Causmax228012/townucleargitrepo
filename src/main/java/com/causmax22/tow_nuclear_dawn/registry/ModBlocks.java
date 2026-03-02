@@ -1,7 +1,7 @@
-package com.causmax22.tow_nuclear_dawn.block;
+package com.causmax22.tow_nuclear_dawn.registry;
 
 import com.causmax22.tow_nuclear_dawn.ToWNuclearDawn;
-import com.causmax22.tow_nuclear_dawn.item.ModItems;
+import com.causmax22.tow_nuclear_dawn.registry.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -13,15 +13,17 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
 
+
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS=
             DeferredRegister.createBlocks(ToWNuclearDawn.MODID);
-    // copy paste here
+    //copy-paste here
 
 
     public static final DeferredBlock<Block> URANIUM_ORE = registerBlock("uranium_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
 
 
 
@@ -34,9 +36,6 @@ public class ModBlocks {
     private static <T extends Block> void registerBLockItem(String name, DeferredBlock<T> block) {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),new Item.Properties()));
     }
-
-
-
 
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);

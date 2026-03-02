@@ -1,6 +1,7 @@
-package com.causmax22.tow_nuclear_dawn.item;
+package com.causmax22.tow_nuclear_dawn.registry.item;
 
 import com.causmax22.tow_nuclear_dawn.ToWNuclearDawn;
+import com.causmax22.tow_nuclear_dawn.registry.item.custom.GeigerItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -71,6 +72,16 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> GALVANIZED_ANDESITE_SHEET = ITEMS.register("galvanized_andesite_sheet",
             () -> new Item(new Item.Properties()));
+
+    //Place holder
+    public static final DeferredItem<Item> PLACEHOLDER = ITEMS.register("placeholder",
+            () -> new Item(new Item.Properties()));
+
+    //Custom ITEMS
+    public static final DeferredItem<Item> GEIGER_COUNTER = ITEMS.register("geiger_counter",
+            () -> new GeigerItem(new Item.Properties().durability(32)));
+
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
