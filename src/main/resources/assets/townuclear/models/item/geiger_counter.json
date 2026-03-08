@@ -1,6 +1,11 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "item/generated",
   "textures": {
-    "layer0": "townuclear:item/geiger_counter"
-  }
+    "layer0": "townuclear:item/geiger_counter/geiger_off"
+  },
+  "overrides": [
+    { "predicate": { "townuclear:radiation_level": 1.0 }, "model": "townuclear:item/geiger_counter/geiger_green" },
+    { "predicate": { "townuclear:radiation_level": 2.0 }, "model": "townuclear:item/geiger_counter/geiger_yellow" },
+    { "predicate": { "townuclear:radiation_level": 3.0 }, "model": "townuclear:item/geiger_counter/geiger_red" }
+  ]
 }

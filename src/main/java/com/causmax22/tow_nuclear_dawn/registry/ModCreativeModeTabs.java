@@ -1,6 +1,7 @@
 package com.causmax22.tow_nuclear_dawn.registry;
 
 import com.causmax22.tow_nuclear_dawn.ToWNuclearDawn;
+import com.causmax22.tow_nuclear_dawn.registry.blocks.ModBlocks;
 import com.causmax22.tow_nuclear_dawn.registry.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -46,6 +47,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PLACEHOLDER);
                         //custom
                         output.accept(ModItems.GEIGER_COUNTER);
+                        output.accept(ModItems.DOSIMETER);
+                        //food - medicine
+                        output.accept(ModItems.THYROID_BLOCKER);
+                        //radiation
+                        output.accept(ModBlocks.RADIATIONEMMITER);
+                        output.accept(ModBlocks.NUKE);
 
 
 

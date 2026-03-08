@@ -1,11 +1,19 @@
 package com.causmax22.tow_nuclear_dawn.registry.item;
 
 import com.causmax22.tow_nuclear_dawn.ToWNuclearDawn;
+import com.causmax22.tow_nuclear_dawn.registry.item.ModFoodProperties.ModFoodProperties;
+import com.causmax22.tow_nuclear_dawn.registry.item.custom.DosimeterItem;
 import com.causmax22.tow_nuclear_dawn.registry.item.custom.GeigerItem;
+import com.causmax22.tow_nuclear_dawn.registry.item.custom.ThyroidBlockerItem;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ToWNuclearDawn.MODID);
@@ -38,7 +46,7 @@ public class ModItems {
     public static final DeferredItem<Item> PURE_SILICA_POWDER = ITEMS.register("pure_silica_powder",
             () -> new Item(new Item.Properties()));
 
-        //SILICA SHEETS
+    //SILICA SHEETS
     public static final DeferredItem<Item> SILICA_SHEET = ITEMS.register("silica_sheet",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PURE_SILICA_SHEET = ITEMS.register("pure_silica_sheet",
@@ -80,6 +88,16 @@ public class ModItems {
     //Custom ITEMS
     public static final DeferredItem<Item> GEIGER_COUNTER = ITEMS.register("geiger_counter",
             () -> new GeigerItem(new Item.Properties().durability(32)));
+
+    public static final DeferredItem<Item> DOSIMETER = ITEMS.register("dosimeter",
+            () -> new DosimeterItem(new Item.Properties().durability(32)));
+
+
+
+
+    //Food/medicine
+    public static final DeferredItem<Item> THYROID_BLOCKER = ITEMS.register("thyroid_blocker",
+            () -> new ThyroidBlockerItem(new Item.Properties().durability(16)));
 
 
 

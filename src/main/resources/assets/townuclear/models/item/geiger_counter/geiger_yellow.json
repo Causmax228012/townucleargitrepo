@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "townuclear:item/geiger_counter/geiger_yellow"
+  }
+}

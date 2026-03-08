@@ -25,8 +25,15 @@
   "item.townuclear.placeholder": "Place Holder",
 
   "item.townuclear.geiger_counter": "Geiger Counter",
+  "item.townuclear.dosimeter": "Dosimeter",
+
+  "item.townuclear.thyroid_blocker": "Thyroid Blocker",
 
   "block.townuclear.uranium_ore": "Uranium Ore",
 
-  "creativetab.tow_nuclear_dawn.tow_nuclear_dawn": "ToW: Nuclear Dawn"
+  "creativetab.tow_nuclear_dawn.tow_nuclear_dawn": "ToW: Nuclear Dawn",
+
+  "tooltip.townuclear.geiger_counter.shift_down.tooltip": "Check §e§n§lRadiation§r Levels with this item§r",
+  "tooltip.townuclear.geiger_counter.tooltip": "Press §eShift§r for more Information",
+  "tooltip.townuclear.potasium_iodine.tooltip": "Blocks §e§n§lRadiation§r for 2 minutes"
 }
